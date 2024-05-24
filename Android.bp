@@ -22,7 +22,6 @@ license {
 cc_library_shared {
     name: "libtinycompress",
     defaults: ["extended_compress_format_defaults"],
-    vendor: true,
 
     cflags: [
         "-Wall",
@@ -49,7 +48,6 @@ cc_library_shared {
 
 cc_binary {
     name: "cplay",
-    vendor: true,
 
     cflags: [
         "-Wall",
